@@ -4,7 +4,7 @@ BTC Clock is a minimalist web app that displays the live price of BTCFDUSD (a Bi
 
 ## Features
 
-- **Real-time Price Updates:** Fetches the latest BTCFDUSD price every 200 milliseconds from the Binance API.
+- **Real-time Price Updates:** Fetches the latest BTCFDUSD price every second from the Binance API.
 - **Responsive Design:** The app is optimized for both desktop and mobile viewing.
 - **Progressive Web App (PWA):** Can be installed on your device and works offline thanks to the service worker.
 
