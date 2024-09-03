@@ -34,6 +34,9 @@ async function fetchPrice() {
         priceElement.textContent = formattedPrice;
         lastPrice = price;
 
+        // Update the document title with the price
+        document.title = `BTC Clock | $${formattedPrice}`;
+
     } catch (error) {
         priceElement.textContent = 'Error fetching price';
         console.error('Error fetching price:', error);
