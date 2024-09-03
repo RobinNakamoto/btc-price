@@ -42,4 +42,4 @@ async function fetchPrice() {
 
 // Initial fetch and interval setup
 fetchPrice();
-setInterval(fetchPrice, 1000); // Fetch price every 1 second
+setInterval(fetchPrice, 500); // Fetch price every 500 ms
