@@ -10,7 +10,7 @@ BTC Clock is a minimalist web app that displays the live price of BTCFDUSD (a Bi
 
 ## Installation
 
-You can access the BTC Clock directly from [GitHub Pages](https://robinnakamoto.github.io/btc-clock) or follow the instructions below to run it locally.
+You can access the BTC Clock directly from [GitHub Pages](https://robinnakamoto.github.io/btc-price) or follow the instructions below to run it locally.
 
 ### Running Locally
 
