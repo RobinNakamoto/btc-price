@@ -19,6 +19,7 @@ async function fetchPrice() {
         const formattedPrice = price.toLocaleString();
 
         // Update the color based on price movement
+        /*
         if (lastPrice !== null) {
             if (price > lastPrice) {
                 priceElement.style.color = 'rgb(69, 151, 130)'; // Custom green color
@@ -28,6 +29,7 @@ async function fetchPrice() {
                 priceElement.style.color = 'rgb(69, 151, 130)'; // Custom green color
             }
         }
+        */
 
         priceElement.textContent = formattedPrice;
         lastPrice = price;
@@ -41,4 +43,3 @@ async function fetchPrice() {
 // Initial fetch and interval setup
 fetchPrice();
 setInterval(fetchPrice, 1000); // Fetch price every 1 second
-
